@@ -27,22 +27,23 @@
 
     
   <dl class="tabs" data-tab>
-    <dd class="active"><a href="#menu">Menu</a></dd>
+    <dd class="active"><a href="#about">About</a></dd>
+    <dd><a href="#menu">Menu</a></dd>
     <dd><a href="#contact">Contact</a></dd>
-    <dd><a href="#about">About</a></dd>
+    
     <dd><a href="#panel4a">Tab 4</a></dd>
   </dl>
 
 <div class="tabs-content">
-  <div class="content active" id="menu">
+  <div class="content" id="menu">
     <div class="row">
       <div class="large-12 columns">
         <div class="panel">
         <h1>Menu</h1>
         <ul class="inline-list">
-          <li><a href="">Sushi</a></li>
-          <li><a href="">Raw Sushi</a></li>
-          <li><a href="">Spicy</a></li>
+          <li><a href="#sushi">Sushi</a></li>
+          <li><a href="#raw">Raw Sushi</a></li>
+          <li><a href="#spicy">Spicy</a></li>
         </ul>
         </div>
       </div>
@@ -51,12 +52,12 @@
     <div class="row">
  
       <div class="large-12 columns">
-        <div class="panel">
+        <div class="panel" id="sushi">
           <h2>Sushi</h2>
         </div>
        
         <div class="row">
-          <div class="large-2 columns small-3"><img style="display:none;visibility:hidden;" data-cfsrc="http://placehold.it/80x80&text=[img]"/><noscript><img src="http://placehold.it/80x80&text=[img]"/></noscript></div>
+          <div class="large-2 columns small-3"><img src="img/big_tempura.jpg"></div>
 
           <div class="large-10 columns">
           <h5>Big Tempura Maki</h5>
@@ -68,7 +69,7 @@
         <hr/>
          
         <div class="row">
-        <div class="large-2 columns small-3"><img style="display:none;visibility:hidden;" data-cfsrc="http://placehold.it/80x80&text=[img]"/><noscript><img src="http://placehold.it/80x80&text=[img]"/></noscript></div>
+        <div class="large-2 columns small-3"><img src="img/other_sushi.jpg"></div>
         <div class="large-10 columns">
         <h5>Kanki By The Sea</h5>
         <p>Eel and avocado rolled in crab stick and tobiko, served on a bed of seaweed salad with a cream sauce.</p>
@@ -78,12 +79,12 @@
          
         <hr/>
 
-        <div class="panel">
+        <div class="panel" id="raw">
           <h2>Raw Sushi</h2>
         </div>
        
         <div class="row">
-          <div class="large-2 columns small-3"><img style="display:none;visibility:hidden;" data-cfsrc="http://placehold.it/80x80&text=[img]"/><noscript><img src="http://placehold.it/80x80&text=[img]"/></noscript></div>
+          <div class="large-2 columns small-3"><img src="img/sushi_rolls.jpg"></div>
 
           <div class="large-10 columns">
           <p><h5>Spiral Ecstasy Roll</h5>
@@ -95,7 +96,8 @@
         <hr/>
          
         <div class="row">
-        <div class="large-2 columns small-3"><img style="display:none;visibility:hidden;" data-cfsrc="http://placehold.it/80x80&text=[img]"/><noscript><img src="http://placehold.it/80x80&text=[img]"/></noscript></div>
+        <div class="large-2 columns small-3"><img src="img/banzai_roll.jpg"></div>
+
         <div class="large-10 columns">
         <p><h5>Banzai Roll</h5>
           <p>Salmon, eel, octopus, and avocado.</p>
@@ -106,7 +108,7 @@
         <hr/>
          
         <div class="row">
-          <div class="large-2 columns small-3"><img style="display:none;visibility:hidden;" data-cfsrc="http://placehold.it/80x80&text=[img]"/><noscript><img src="http://placehold.it/80x80&text=[img]"/></noscript></div>
+          <div class="large-2 columns small-3"><img src="img/sushi.jpg"></div>
 
           <div class="large-10 columns">
           <p><h5>Scallop Banzai Roll</h5>
@@ -116,12 +118,13 @@
           </div>
         </div>
 
-        <div class="panel">
+        <div class="panel" id="spicy">
           <h2>Spicy</h2>
         </div>
 
         <div class="row">
-        <div class="large-2 columns small-3"><img style="display:none;visibility:hidden;" data-cfsrc="http://placehold.it/80x80&text=[img]"/><noscript><img src="http://placehold.it/80x80&text=[img]"/></noscript></div>
+        <div class="large-2 columns small-3"><img src="img/Seattle_roll.jpg"></div>
+
         <div class="large-10 columns">
         <p><h5>Sheila Maki</h5>
           <p>Butterfish, crab stick, avocado, masago and spicy mayo in a reverse roll layered with tempura drops and seasoned sweet soy.</p>
@@ -132,7 +135,7 @@
         <hr/>
          
         <div class="row">
-          <div class="large-2 columns small-3"><img style="display:none;visibility:hidden;" data-cfsrc="http://placehold.it/80x80&text=[img]"/><noscript><img src="http://placehold.it/80x80&text=[img]"/></noscript></div>
+          <div class="large-2 columns small-3"><img src="img/volcano_roll.jpg"/></div>
 
           <div class="large-10 columns">
           <p><h5>Volcano Roll</h5>
@@ -144,7 +147,7 @@
         <hr/>
        
         <div class="row">
-          <div class="large-2 columns small-3"><img style="display:none;visibility:hidden;" data-cfsrc="http://placehold.it/80x80&text=[img]"/><noscript><img src="http://placehold.it/80x80&text=[img]"/></noscript></div>
+          <div class="large-2 columns small-3"><img src="img/tuna_rio_filler.jpg"></div>
 
           <div class="large-10 columns">
           <p><h5>Tuna Rio</h5>
@@ -183,7 +186,7 @@
     </div>
   </div>
 
-  <div class="content" id="about">
+  <div class="content active row" id="about">
     <h1>About</h1>
     <p>Sushi Maru invites you to enjoy our kaiten-zushi (conveyer belt sushi) dining experience serving both traditional and creative sushi in a relaxed and friendly atmosphere.  “Maru” means round or perfection. Our extensive menu features a wide variety of the high quality sushi and sushi rolls, as well as tataki, udon, cooked appetizers and desserts for everyone. The selection is not limited to sushi. We are proud of our professional and exceptionalservice that we extend to each of our guests. Great with kids and beginner sushi eaters; we not only offer a comprehensive sushi menu but also a wide selection of non-sushi/seafood items such as Honey Walnut Shrimp or even Popcorn Chicken.</p>
 
