@@ -1,5 +1,10 @@
 /* GLOBAL */
 
+section{
+    padding: 2%;
+    min-height: 100vh;
+}
+
 hr{
     margin: 10px;
 }

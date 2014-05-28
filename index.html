@@ -20,20 +20,21 @@
         <img src="img/sushimaru_logo.png">
       </div>
       
-     <!--  <div class="large-10 columns">
-        
-      </div> -->
+      <div class="large-10 columns">
+        <div data-magellan-expedition="fixed">
+        <dl class="sub-nav">
+          <dd data-magellan-arrival="about"><a href="#about" data-scroll-nav="0">About</a></dd>
+          <dd data-magellan-arrival="menu"><a href="#menu" data-scroll-nav="1">Menu</a></dd>
+          <dd data-magellan-arrival="contact"><a data-scroll-nav="2">Contact</a></dd>
+        </dl>
+      </div>
     </header>
 
     
-  <dl class="tabs" data-tab>
-    <dd class="active"><a href="#about">About</a></dd>
-    <dd><a href="#menu">Menu</a></dd>
-    <dd><a href="#contact">Contact</a></dd>
-  </dl>
+  
 
-<div class="tabs-content">
-  <div id="about" class="content active row">
+
+  <section id="about"  data-scroll-index="0" class="row">
     <div class="large-7 columns">
       <h1>About</h1>
       <p>Sushi Maru invites you to enjoy our kaiten-zushi (conveyer belt sushi) dining experience serving both traditional and creative sushi in a relaxed and friendly atmosphere.  “Maru” means round or perfection. Our extensive menu features a wide variety of the high quality sushi and sushi rolls, as well as tataki, udon, cooked appetizers and desserts for everyone. The selection is not limited to sushi. We are proud of our professional and exceptionalservice that we extend to each of our guests. Great with kids and beginner sushi eaters; we not only offer a comprehensive sushi menu but also a wide selection of non-sushi/seafood items such as Honey Walnut Shrimp or even Popcorn Chicken.</p>
@@ -86,9 +87,9 @@
         </div>
         <img src="img/conveyer.jpg">
       </div>
-  </div>
+  </section>
 
-  <div id="menu" class="content">
+  <section id="menu"  data-scroll-index="1">
     <div class="row">
       <div class="large-12 columns">
         <div class="panel">
@@ -212,9 +213,9 @@
       </div>
 
       </div>
-  </div>
+  </section>
 
-  <div id="contact" class="content">
+  <section id="contact" data-scroll-index="2">
     <div class="row">
       <div class="large-5 columns">
         <div class="panel">
@@ -237,13 +238,15 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.282971215473!2d-117.42353800000001!3d47.65949899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4100979c0cf5d029!2sSushi+Maru!5e0!3m2!1sen!2sus!4v1401167587015" width="600" height="450" frameborder="0" style="border:0"></iframe>
       </div>
     </div>
-  </div>
+  </section>
 
-</div>
+
 
 
     <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/jquery.easings.min.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/scrollit.js"></script>
     <script src="js/scripts.js"></script>
   
   </body>

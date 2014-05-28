@@ -6,5 +6,8 @@ $(document).foundation();
 $(document).ready(function(){
   
   // Your Scripts
+    
 
+  
+$.scrollIt();
 });
