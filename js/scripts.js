@@ -8,8 +8,10 @@ $(document).ready(function(){
   // Your Scripts
     
 $('#fullpage').fullpage({
-	scrollOverflow:true;
+	scrollOverflow:true,
+	anchors: ['about', 'menu', 'contact'],
+    menu: '#mymenu'
 });
 
-$.scrollIt();
+
 });

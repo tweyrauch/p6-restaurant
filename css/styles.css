@@ -5,8 +5,10 @@ body{
 }
 
 header{
+    width: 100%;
     background: white;
     position: fixed;
+    z-index: 999;
 }
 
 section{
@@ -17,6 +19,14 @@ section{
 
 hr{
     margin: 10px;
+}
+
+#mymenu{
+    z-index: 999;
+}
+
+a.active{
+    color: red;
 }
 
 .panel table{
