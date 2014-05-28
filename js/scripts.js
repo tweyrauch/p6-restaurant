@@ -7,7 +7,9 @@ $(document).ready(function(){
   
   // Your Scripts
     
+$('#fullpage').fullpage({
+	scrollOverflow:true;
+});
 
-  
 $.scrollIt();
 });
