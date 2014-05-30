@@ -10,7 +10,7 @@ $(document).ready(function(){
 $('#fullpage').fullpage({
 	anchors: ['home', 'about', 'food', 'contact'],
 	scrollingSpeed: 1000,
-	slidesColor: ['black', 'red', 'orange', 'yellow'],
+	slidesColor: ['black', '#D9261C', 'orange', 'yellow'],
 	scrollOverflow:true,
 	paddingTop: '3em',
 	menu:'.sub-nav'
