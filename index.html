@@ -20,30 +20,28 @@
         <img src="img/sushimaru_logo.png">
       </div>
       
-      <div class="large-10 columns" >
-        <dl class="sub-nav">
-          <dd data-menuanchor="home" class><a href="#home"></a></dd>
-          <dd data-menuanchor="about" class><a href="#about">About</a></dd>
-          <dd data-menuanchor="food" class><a href="#food">Menu</a></dd>
-          <dd data-menuanchor="contact" class><a href="#contact">Contact</a></dd>
-        </dl>
+      <div class="large-10 columns hide-for-small-only" >
+        <ul class="sub-nav">
+          <li data-menuanchor="home" ><a href="#home"></a></li>
+          <li data-menuanchor="about" ><a href="#about">About</a></li>
+          <li data-menuanchor="food" ><a href="#food">Menu</a></li>
+          <li data-menuanchor="contact" ><a href="#contact">Contact</a></li>
+        </ul>
       </div>
   </header>
 
     
   
-<article id="fullpage">
+<dl id="fullpage" data-accordion>
 
-
-
-  <section class="section">
+  <dd class="section">
     <img src="img/conveyer.jpg">
+  </dd>
 
-  </section>
-
-  <section class="section">
-    <div class="row">
-    <h1 >About Sushi Maru</h1>
+  <dd class="section">
+    <a href="#panel1" class="show-for-small-only">Hours/About</a>
+    <div id="panel1" class="row content">
+    <h1>About Sushi Maru</h1>
     <div class="large-7 columns">
       <p>Sushi Maru invites you to enjoy our kaiten-zushi (conveyer belt sushi) dining experience serving both traditional and creative sushi in a relaxed and friendly atmosphere.  “Maru” means round or perfection. Our extensive menu features a wide variety of the high quality sushi and sushi rolls, as well as tataki, udon, cooked appetizers and desserts for everyone. The selection is not limited to sushi. We are proud of our professional and exceptionalservice that we extend to each of our guests. Great with kids and beginner sushi eaters; we not only offer a comprehensive sushi menu but also a wide selection of non-sushi/seafood items such as Honey Walnut Shrimp or even Popcorn Chicken.</p>
 
@@ -96,10 +94,11 @@
         
       </div>
      </div> 
-  </section>
+  </dd>
 
-  <section class="section">
-    <div class="row">
+  <dd class="section">
+    <a href="#panel2" class="show-for-small-only">Menu</a>
+    <div id="panel2" class="row content">
     <h1 >Menu</h1>
     <ul class="inline-list">
           <li><a href="#sushi">Sushi</a></li>
@@ -113,7 +112,7 @@
         </div>
        
         <div class="row">
-          <div class="large-2 columns small-3"><img src="img/big_tempura.jpg"></div>
+          <div class="large-2 columns hide-for-small-only"><img src="img/big_tempura.jpg"></div>
 
           <div class="large-10 columns">
           <h5>Big Tempura Maki</h5>
@@ -125,7 +124,7 @@
         <hr/>
          
         <div class="row">
-        <div class="large-2 columns small-3"><img src="img/other_sushi.jpg"></div>
+        <div class="large-2 columns hide-for-small-only"><img src="img/other_sushi.jpg"></div>
         <div class="large-10 columns">
         <h5>Kanki By The Sea</h5>
         <p>Eel and avocado rolled in crab stick and tobiko, served on a bed of seaweed salad with a cream sauce.</p>
@@ -140,7 +139,7 @@
         </div>
        
         <div class="row">
-          <div class="large-2 columns small-3"><img src="img/sushi_rolls.jpg"></div>
+          <div class="large-2 columns hide-for-small-only"><img src="img/sushi_rolls.jpg"></div>
 
           <div class="large-10 columns">
           <p><h5>Spiral Ecstasy Roll</h5>
@@ -152,7 +151,7 @@
         <hr/>
          
         <div class="row">
-        <div class="large-2 columns small-3"><img src="img/banzai_roll.jpg"></div>
+        <div class="large-2 columns hide-for-small-only"><img src="img/banzai_roll.jpg"></div>
 
         <div class="large-10 columns">
         <p><h5>Banzai Roll</h5>
@@ -164,7 +163,7 @@
         <hr/>
          
         <div class="row">
-          <div class="large-2 columns small-3"><img src="img/sushi.jpg"></div>
+          <div class="large-2 columns hide-for-small-only"><img src="img/sushi.jpg"></div>
 
           <div class="large-10 columns">
           <p><h5>Scallop Banzai Roll</h5>
@@ -179,7 +178,7 @@
         </div>
 
         <div class="row">
-        <div class="large-2 columns small-3"><img src="img/Seattle_roll.jpg"></div>
+        <div class="large-2 columns hide-for-small-only"><img src="img/Seattle_roll.jpg"></div>
 
         <div class="large-10 columns">
         <p><h5>Sheila Maki</h5>
@@ -191,7 +190,7 @@
         <hr/>
          
         <div class="row">
-          <div class="large-2 columns small-3"><img src="img/volcano_roll.jpg"/></div>
+          <div class="large-2 columns hide-for-small-only"><img src="img/volcano_roll.jpg"/></div>
 
           <div class="large-10 columns">
           <p><h5>Volcano Roll</h5>
@@ -203,7 +202,7 @@
         <hr/>
        
         <div class="row">
-          <div class="large-2 columns small-3"><img src="img/tuna_rio_filler.jpg"></div>
+          <div class="large-2 columns hide-for-small-only"><img src="img/tuna_rio_filler.jpg"></div>
 
           <div class="large-10 columns">
           <p><h5>Tuna Rio</h5>
@@ -215,10 +214,13 @@
       </div>
 
     </div>  
-  </section>
+  </dd>
 
-  <section class="section">
-    <div class="row">
+  <dd class="section">
+    <a href="#panel3" class="show-for-small-only">Contact</a>
+
+    <div id="panel3" class="row content">
+      <h1>Contact</h1>
       <div class="large-4 columns">
         <div class="panel">
           <h4>Sushi Maru Address<hr/></h4>
@@ -240,8 +242,8 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.282971215473!2d-117.42353800000001!3d47.65949899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4100979c0cf5d029!2sSushi+Maru!5e0!3m2!1sen!2sus!4v1401167587015" width="500" height="450" frameborder="0" style="border:0"></iframe>
       </div>
     </div>
-  </section>
-</article>
+  </dd>
+</dl>
 
 
 
@@ -250,7 +252,7 @@
     <script src="js/foundation.min.js"></script>
 
     <script src="js/slimscroll.min.js"></script>
-    <script src="js/fullscreen.js"></script>
+    <script src="js/fullscreen.js" class="scroller"></script>
     
     <script src="js/scripts.js"></script>
   

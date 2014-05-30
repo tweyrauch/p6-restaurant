@@ -17,20 +17,26 @@ section{
     min-height: 100vh;
 }
 
-.row{
+.content{
      background: white;
+     padding: 0 2%;
+     min-height: 100%;
 }
 
 hr{
     margin: 10px;
 }
 
-#mymenu{
-    z-index: 999;
+ul.sub-nav li:nth-child(1){
+    display: none;
 }
 
-a.active{
-    color: red;
+ul.sub-nav li.active a{
+    background: #D9261C;
+}
+
+dl dd{
+    margin: 0;
 }
 
 .panel table{
@@ -40,3 +46,21 @@ a.active{
 .panel table tr td:nth-child(2){
     text-align: right;
 }
+
+
+@media only screen and (max-width: 40em) {
+    header{
+        position: static;
+        width:320px; 
+    }
+
+    section:nth-child(1){
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 40.063em) {
+}
+
+@media only screen and (min-width: 64.063em) {
+    }
