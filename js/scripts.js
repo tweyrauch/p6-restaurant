@@ -8,21 +8,30 @@ $(document).ready(function(){
   // Your Scripts
     
 $('#fullpage').fullpage({
-	anchors: ['home', 'about', 'food', 'contact'],
+	anchors: ['home', 'about', 'menu', 'contact'],
 	scrollingSpeed: 1000,
 	slidesColor: ['black', '#D9261C', '#FFAC07', '#A5BD60'],
 	scrollOverflow:true,
 	paddingTop: '3em',
+	fixedElements:'.largeheader',
 	menu:'.sub-nav'
-
-});
 });
 
-
-$(window).resize(function(){
-if($(window).width()<=320){
-	$('.scroller').remove();
-	$('dl').removeAttr('id').addClass('accordion');
-	$('dd').removeClass('section');
-}
+$('p a.description').click(function(){
+	$('p.food-info').show();
 });
+
+$('a.hide').click(function(){
+	$('p.food-info').hide();
+});
+
+});
+
+
+
+// function(){
+// if($(window).width()<='400px'){
+// 	$('script').remove('.scroller');
+// 	$('dl').removeAttr('id').addClass('accordion');
+// 	$('dd').removeClass('section');
+// }}

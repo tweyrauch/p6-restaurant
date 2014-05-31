@@ -31,12 +31,18 @@ ul.sub-nav li:nth-child(1){
     display: none;
 }
 
-ul.sub-nav li.active a{
+ul.sub-nav li.active a:link,
+ul.sub-nav li.active a:visited{
     background: #D9261C;
 }
 
-dl dd{
-    margin: 0;
+ul.sub-nav li a:hover,
+ul.sub-nav li a:active{
+    color: #D9261C;
+}
+
+.panel{
+    margin-top: .75em;
 }
 
 .panel table{
@@ -47,19 +53,59 @@ dl dd{
     text-align: right;
 }
 
+span.label{
+    font-size: 1em;
 
-@media only screen and (max-width: 40em) {
-    header{
+}
+
+.big-logo{
+    position: absolute;
+    left: 3em;
+}
+
+@media only screen and (max-width: 40.063em) {
+    .smallheader{
+        background: black;
         position: static;
-        width:320px; 
     }
 
-    section:nth-child(1){
+    .smallheader li{
+        width: 100%;
+    }
+
+    .smallheader li a{
+        display: inline-block;
+        background: #D9261C;
+        width: 100%;
+        text-align: center;
+    }
+
+    .smallheader ul.sub-nav li a:hover{
+        color:black;
+    }
+
+    .logo{
+        margin-bottom: 2em;
+    }
+
+    p.food-info{
         display: none;
+    }
+
+    p.showmore{
+        display:inline-block;
     }
 }
 
 @media only screen and (min-width: 40.063em) {
+    header{
+        background: black;
+        height: 3em;
+    }
+
+    .panel{
+        padding:1em;
+    }
 }
 
 @media only screen and (min-width: 64.063em) {
