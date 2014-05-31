@@ -24,12 +24,21 @@ section{
      min-height: 100%;
 }
 
+#food h2{
+    padding: .1% .5%;
+    background: rgba(255, 172, 7, .1);
+}
+
 a{
     color: #D9261C;
 }
 
 a:hover{
     color: black;
+}
+
+.description{
+    font-size: 1em;
 }
 
 h6 a{
@@ -115,6 +124,15 @@ span.label{
 
     section{
         padding:0;
+    }
+
+    .panel{
+        padding: 1em
+    }
+
+    #food h2{
+        background: none;
+        border-bottom: 1px solid rgba(255, 172, 7, .3);
     }
 }
 

@@ -16,22 +16,16 @@ $('#fullpage').fullpage({
 	menu:'.sub-nav'
 });
 
-$('p a.description').click(function(){
-	$('p.food-info').show();
+$('a.description').click(function(){
+	$(this).next().show();
 });
+
 
 $('a.hide').click(function(){
 	$('p.food-info').hide();
 });
 
-$('select').change(function(){
-  //Go to select's location
-  window.location = ('select').val();
 });
-
-
-});
-
 
 
 // function(){
