@@ -12,7 +12,6 @@ $('#fullpage').fullpage({
 	scrollingSpeed: 1000,
 	slidesColor: ['black', '#D9261C', '#FFAC07', '#A5BD60'],
 	scrollOverflow:true,
-	paddingTop: '3em',
 	fixedElements:'.largeheader',
 	menu:'.sub-nav'
 });
@@ -24,6 +23,12 @@ $('p a.description').click(function(){
 $('a.hide').click(function(){
 	$('p.food-info').hide();
 });
+
+$('select').change(function(){
+  //Go to select's location
+  window.location = ('select').val();
+});
+
 
 });
 
