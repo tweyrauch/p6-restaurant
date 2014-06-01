@@ -26,7 +26,7 @@ section{
 
 #food h2{
     padding: .1% .5%;
-    background: rgba(255, 172, 7, .1);
+    background: rgba(255, 172, 7, .2);
 }
 
 a{
@@ -38,7 +38,7 @@ a:hover{
 }
 
 .description{
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 h6 a{
@@ -47,6 +47,39 @@ h6 a{
     display: inline-block;
     padding: 1%;
     border: 1px solid #D9261C;
+}
+
+.yellow{
+    border-bottom: 2px solid yellow;
+    display: inline;
+}
+.light-blue{
+    border-bottom: 2px solid lightblue;
+    display: inline;
+}
+.red{
+    border-bottom: 2px solid red;
+    display: inline;
+}
+.purple{
+    border-bottom: 2px solid purple;
+    display: inline;
+}
+.dark-blue{
+    border-bottom: 2px solid darkblue;
+    display: inline;
+}
+.green{
+    border-bottom: 2px solid green;
+    display: inline;
+}
+
+ul.price{
+    margin-left: 0;
+}
+
+ul.price li{
+    display: block;
 }
 
 hr{
@@ -134,6 +167,26 @@ span.label{
         background: none;
         border-bottom: 1px solid rgba(255, 172, 7, .3);
     }
+
+    .yellow{
+        border-bottom: 1px solid yellow;
+    }
+    .light-blue{
+        border-bottom: 1px solid lightblue;
+    }
+    .red{
+        border-bottom: 1px solid red;
+    }
+    .purple{
+        border-bottom: 1px solid purple;
+    }
+    .dark-blue{
+        border-bottom: 1px solid darkblue;
+    }
+    .green{
+        border-bottom: 1px solid green;
+    }
+
 }
 
 @media only screen and (min-width: 40.063em) {

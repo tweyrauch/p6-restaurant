@@ -125,24 +125,44 @@
       <a href="#food" class="small-4 columns">Menu</a>
       <a href="#talk" class="small-4 columns">Contact</a></h6>
     </div>
+
     <div class="row content">
-    <h1 >Menu</h1>
-    <ul class="inline-list">
-          <li><a href="#sushi">Sushi</a></li>
+
+    <div class="row">
+      <div class="large-6 medium-6 small-12 columns">
+    <h1>Menu</h1>
+      <ul class="inline-list hide-for-small-only">
+          <li><a href="#sushi">General Items</a></li>
           <li><a href="#raw">Raw Sushi</a></li>
-          <li><a href="#spicy">Spicy</a></li>
+          <li><a href="#veggie">Vegetarian</a></li>
         </ul>
- 
+      </div>
+
+      <div  class="large-6 medium-6 small-12 columns">
+        <h4>Pricing by Plate Color</h4>
+        <ul class="small-6 columns price">
+          <li class="yellow">Yellow &#8230; &#36;1.50</li>
+          <li class="light-blue">Light Blue &#8230; &#36;2.25</li>
+          <li class="red">Red &#8230; &#36;2.75</li>
+        </ul>
+        <ul class="small-6 columns price">
+          <li class="purple">Purple &#8230; &#36;3.25</li>
+          <li class="dark-blue">Dark Blue &#8230; &#36;3.75</li>
+          <li class="green">Green &#8230; &#36;4.50</li>
+        </ul>
+      </div>
+    </div>
+
       <div class="large-12 columns">
-          <h2 id="sushi">Sushi</h2>
+          <h2 id="sushi">General Items</h2>
        
         <div class="row">
           <div class="large-2 medium-2 columns hide-for-small-only"><img src="img/big_tempura.jpg"></div>
 
           <div class="large-10 medium-10 small-12 columns">
-          <h5>Big Tempura Maki<span> &#8230; &#36;10</span></h5>
+          <h5 class="yellow">Gyoza &#8230;<span> &#36;1.50</span></h5>
            <a href="#" class="show-for-small-only description">Description</a>
-          <p class="food-info">Shrimp, crab stick, chef’s choice of fish and avocado batter fried together and wrapped in rice and nori.<a href="#" class="show-for-small-only hide">Hide</a></p>
+          <p class="food-info">Fried dumplings stuffed with shredded pork.<a href="#" class="show-for-small-only hide">Hide</a></p>
           </div>
         </div>
          
@@ -151,25 +171,34 @@
         <div class="row">
         <div class="large-2 medium-2 columns hide-for-small-only"><img src="img/other_sushi.jpg"></div>
         <div class="large-10 medium-10 small-12 columns">
-        <h5>Kanki By The Sea<span> &#8230; &#36;10</span></h5>
+        <h5 class="purple">Spider Roll &#8230;<span> &#36;3.25</span></h5>
          <a href="#" class="show-for-small-only description">Description</a>
-        <p class="food-info">Eel and avocado rolled in crab stick and tobiko, served on a bed of seaweed salad with a cream sauce.<a href="#" class="show-for-small-only hide">Hide</a></p>
+        <p class="food-info">Tempura fried soft shell crab with avocado, cucumber, imitation crab, Kaiware (Daikon Sprouts) and Masago to garnish.<a href="#" class="show-for-small-only hide">Hide</a></p>
         </div>
         </div>
          
         <hr/>
 
-        <!-- <div class="panel"> -->
-          <h2 id="raw">Raw Sushi</h2>
-        <!-- </div> -->
+        <div class="row">
+        <div class="large-2 medium-2 columns hide-for-small-only"><img src="img/other_sushi.jpg"></div>
+        <div class="large-10 medium-10 small-12 columns">
+        <h5 class="purple">Udon &#8230;<span> &#36;3.25</span></h5>
+         <a href="#" class="show-for-small-only description">Description</a>
+        <p class="food-info">Soy broth and Udon noodles and steamed fish cake.<a href="#" class="show-for-small-only hide">Hide</a></p>
+        </div>
+        </div>
+         
+        <hr/>
+
+        <h2 id="raw">Raw Sushi</h2>
        
         <div class="row">
           <div class="large-2 medium-2 columns hide-for-small-only"><img src="img/sushi_rolls.jpg"></div>
 
           <div class="large-10 medium-10 small-12 columns">
-          <h5>Spiral Ecstasy Roll<span> &#8230; &#36;11</span></h5>
+          <h5 class="light-blue">Ika &#8230;<span> &#36;2.25</span></h5>
              <a href="#" class="description show-for-small-only">Description</a>
-            <p class="food-info">Shrimp, crab stick, and avocado rolled with salmon, yellowtail and tuna.<a href="#" class="show-for-small-only hide">Hide</a></p>
+            <p class="food-info">Squid.<a href="#" class="show-for-small-only hide">Hide</a></p>
           </div>
         </div>
          
@@ -179,9 +208,9 @@
         <div class="large-2 medium-2 columns hide-for-small-only"><img src="img/banzai_roll.jpg"></div>
 
         <div class="large-10 medium-10 small-12 columns">
-        <h5>Banzai Roll<span> &#8230; &#36;11</span></h5>
+        <h5 class="light-blue">Salmon Nigiri &#8230;<span> &#36;2.25</span></h5>
            <a href="#" class="description show-for-small-only">Description</a>
-          <p class="food-info">Salmon, eel, octopus, and avocado.<a href="#" class="show-for-small-only hide">Hide</a></p>
+          <p class="food-info">Fresh Salmon Nigiri on rice.<a href="#" class="show-for-small-only hide">Hide</a></p>
         </div>
         </div>
          
@@ -191,22 +220,21 @@
           <div class="large-2 medium-2 columns hide-for-small-only"><img src="img/sushi.jpg"></div>
 
           <div class="large-10 medium-10 small-12 columns">
-          <h5>Scallop Banzai Roll<span> &#8230; &#36;12</span></h5>
+          <h5 class="red">Maguro &#8230;<span> &#36;2.75</span></h5>
              <a href="#" class="description show-for-small-only">Description</a>
-            <p class="food-info">Salmon, eel, scallops, and avocado.<a href="#" class="show-for-small-only hide">Hide</a></p>
+            <p class="food-info">Slilces of Maguro (Yellowfin Tuna) on rice.<a href="#" class="show-for-small-only hide">Hide</a></p>
           </div>
         </div>
-<!-- 
-        <div class="panel"> -->
-          <h2 id="spicy">Spicy</h2>
-        <!-- </div> -->
+
+         <hr/>
 
         <div class="row">
-        <div class="large-2 medium-2 columns hide-for-small-only"><img src="img/Seattle_roll.jpg"></div>
+        <div class="large-2 medium-2 columns hide-for-small-only"><img src="img/seattle_roll.jpg"></div>
 
         <div class="large-10 medium-10 small-12 columns">
-        <h5>Sheila Maki<span> &#8230; &#36;7</span></h5>
-          <p class="food-info">Butterfish, crab stick, avocado, masago and spicy mayo in a reverse roll layered with tempura drops and seasoned sweet soy.<a href="#" class="show-for-small-only hide">Hide</a></p>
+        <h5 class="dark-blue">Godzilla Roll &#8230;<span> &#36;3.75</span></h5>
+        <a href="#" class="description show-for-small-only">Description</a>
+          <p class="food-info">Spicy tuna roll topped with Unagi, Tobiko, green onions and chili sauce.<a href="#" class="show-for-small-only hide">Hide</a></p>
         </div>
         </div>
          
@@ -216,23 +244,61 @@
           <div class="large-2 medium-2 columns hide-for-small-only"><img src="img/volcano_roll.jpg"/></div>
 
           <div class="large-10 medium-10 small-12 columns">
-          <h5>Volcano Roll<span> &#8230; &#36;11.50</span></h5>
+          <h5 class="dark-blue">Rainbow Roll &#8230;<span> &#36;3.75</span></h5>
           <a href="#" class="description show-for-small-only">Description</a>
-            <p class="food-info">Crab stick, avocado and cream cheese rolled and covered with a unique spicy lava sauce.<a href="#" class="show-for-small-only hide"> Hide</a></p>
+            <p class="food-info">California roll topped with salmon, tuna, Izumidai and avocado.<a href="#" class="show-for-small-only hide"> Hide</a></p>
           </div>
         </div>
 
         <hr/>
-       
+
+         <div class="row">
+          <div class="large-2 medium-2 columns hide-for-small-only"><img src="img/tuna_rio_filler.jpg"></div>
+
+          <div class="large-10 medium-10 small-12 columns">
+          <h5 class="green">Uni &#8230;<span> &#36;4.50</span></h5>
+             <a href="#" class="description show-for-small-only">Description</a>
+            <p class="food-info">Sea Urchin.<a href="#" class="show-for-small-only hide">Hide</a></p>
+          </div>
+        </div>
+
+        <hr/>
+
         <div class="row">
           <div class="large-2 medium-2 columns hide-for-small-only"><img src="img/tuna_rio_filler.jpg"></div>
 
           <div class="large-10 medium-10 small-12 columns">
-          <h5>Tuna Rio<span> &#8230; &#36;12</span></h5>
+          <h5 class="green">Tuna Sashami &#8230;<span> &#36;4.50</span></h5>
              <a href="#" class="description show-for-small-only">Description</a>
-            <p class="food-info">Shrimp tempura, cream cheese, and spicy mayo in a reverse roll with tuna, baked and topped with hot sauce and jalapenos.<a href="#" class="show-for-small-only hide">Hide</a></p>
+            <p class="food-info">4 pieces of tuna served sashami style.<a href="#" class="show-for-small-only hide">Hide</a></p>
           </div>
         </div>
+
+        <hr/>
+
+        <h2 id="veggie">Vegetarian</h2>
+
+         <div class="row">
+        <div class="large-2 medium-2 columns hide-for-small-only"><img src="img/seattle_roll.jpg"></div>
+
+        <div class="large-10 medium-10 small-12 columns">
+        <h5 class="yellow">Cucumber Salad &#8230;<span> &#36;1.50</span></h5>
+        <a href="#" class="description show-for-small-only">Description</a>
+          <p class="food-info">Sliced cucumbers in House Vinegar Dressing with ebi (shrimp).<a href="#" class="show-for-small-only hide">Hide</a></p>
+        </div>
+        </div>
+
+      <hr/>
+
+        <div class="row">
+        <div class="large-2 medium-2 columns hide-for-small-only"><img src="img/seattle_roll.jpg"></div>
+
+        <div class="large-10 medium-10 small-12 columns">
+        <h5 class="red">Maru Veggie Roll &#8230;<span> &#36;2.75</span></h5>
+        <a href="#" class="description show-for-small-only">Description</a>
+          <p class="food-info">sliced cucumber, avocado, pickled radish, Yamagobo and Kampyo.<a href="#" class="show-for-small-only hide">Hide</a></p>
+        </div>
+        </div> 
 
       </div>
 
