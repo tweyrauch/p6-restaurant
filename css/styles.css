@@ -109,6 +109,13 @@ h6 a{
     content:"";
 }
 
+.spicy::after{
+    content:"SPICY!";
+    color: #D9261C;
+    margin-left: 1%;
+    opacity: .5;
+}
+
 p.food-info{
    padding-left: 20px;
 }
