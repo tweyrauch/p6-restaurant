@@ -27,6 +27,11 @@ section{
 #food h2{
     padding: .1% .5%;
     background: rgba(255, 172, 7, .2);
+    border-radius: .15em;
+}
+
+#food img{
+    border-radius: 15%
 }
 
 a{
@@ -49,29 +54,63 @@ h6 a{
     border: 1px solid #D9261C;
 }
 
-.yellow{
-    border-bottom: 2px solid yellow;
-    display: inline;
+.yellow::before{
+    background: yellow;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin-right: 1%;
+    border-radius: 50%;
+    content:"";
 }
-.light-blue{
-    border-bottom: 2px solid lightblue;
-    display: inline;
+.light-blue::before{
+    background: lightblue;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin-right: 1%;
+    border-radius: 50%;
+    content:"";
 }
-.red{
-    border-bottom: 2px solid red;
-    display: inline;
+.red::before{
+    background: red;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin-right: 1%;
+    border-radius: 50%;
+    content:"";
 }
-.purple{
-    border-bottom: 2px solid purple;
-    display: inline;
+.purple::before{
+    background: purple;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin-right: 1%;
+    border-radius: 50%;
+    content:"";
 }
-.dark-blue{
-    border-bottom: 2px solid darkblue;
-    display: inline;
+.dark-blue::before{
+    background: darkblue;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin-right: 1%;
+    border-radius: 50%;
+    content:"";
 }
-.green{
-    border-bottom: 2px solid green;
-    display: inline;
+.green::before{
+    background: green;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin-right: 1%;
+    border-radius: 50%;
+    content:"";
+}
+
+p.food-info{
+   padding-left: 20px;
 }
 
 ul.price{
@@ -102,14 +141,27 @@ ul.sub-nav li a:active{
 
 .panel{
     margin-top: .75em;
+    background: rgba(165, 189, 96, .3);
+    border: #A5BD60;
+}
+
+#talk .panel{
+    background: rgba(255, 172, 7, .2);
+    border: #FFAC07;
 }
 
 .panel table{
     width: 100%;
+    border-collapse: collapse;
+    border: #A5BD60;
 }
 
 .panel table tr td:nth-child(2){
     text-align: right;
+}
+
+.panel table tr:nth-child(even){
+    background: rgba(165, 189, 96, .3);
 }
 
 span.label{
@@ -185,6 +237,15 @@ span.label{
     }
     .green{
         border-bottom: 1px solid green;
+    }
+
+    .yellow::before,
+    .light-blue::before,
+    .red::before,
+    .purple::before,
+    .dark-blue::before,
+    .green::before{
+        display: none;
     }
 
 }
