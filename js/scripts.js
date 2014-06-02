@@ -12,7 +12,7 @@ $('#fullpage').fullpage({
 	scrollingSpeed: 1000,
 	slidesColor: ['black', '#D9261C', '#FFAC07', '#A5BD60'],
 	scrollOverflow:true,
-	fixedElements:'.largeheader',
+	fixedElements:['.largeheader'],
 	menu:'.sub-nav'
 });
 

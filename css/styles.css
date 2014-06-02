@@ -7,7 +7,6 @@ body{
 header{
     height: 3em;
     width: 100%;
-    background: white;
     position: fixed;
     z-index: 999;
 }
@@ -20,8 +19,9 @@ section{
 
 .content{
      background: white;
-     padding: 0 2%;
+     padding: 0 2% 2% 2%;
      min-height: 100%;
+     margin-bottom: -1.5em
 }
 
 #food h2{
